@@ -28,6 +28,12 @@ a{
     text-decoration: none;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 /* common */
 .container{
     max-width: 1158px;
@@ -149,7 +155,9 @@ color:#2e2f42;
     color:#ffffff;
     background-color:#4d5ae5;
     border: none;
-    display: block ;
+    display: block;
+    min-width: 169px;
+    height: 56px;
     border-radius: 4px;
     padding: 16px 32px;
     margin: auto;
@@ -162,10 +170,9 @@ color:#2e2f42;
 
 /* benefits section */
 
-.benefits-container,
-.team-container,
-.portfolio-conteiner{
-    max-width: 1128px;
+.benefits,
+.team,
+.portfolio{
     padding-top: 120px; 
     padding-bottom: 120px;
 }
@@ -247,7 +254,6 @@ color:#2e2f42;
     display: flex;
     align-items: center;
     gap: 24px;
-    padding-top: 72px;
 }
 
 .team-list-item{
@@ -267,16 +273,12 @@ color:#2e2f42;
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
-    padding-top: 72px;
+    row-gap: 48px;
 }
 
 .portfolio-list-item{
     width: calc((100% - 48px) / 3);
     margin-bottom: 48px;
-}
-
-.portfolio-image{
-    display: block;
 }
 
 .portfolio-subtitle{
@@ -302,12 +304,12 @@ padding: 100px 0;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color:#4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-logo-studio{
     color:#f4f4fd;
-    display: inline-block;
-    margin-bottom: 16px;
 }
 
 .footer-logo-text{
