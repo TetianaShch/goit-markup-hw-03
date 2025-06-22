@@ -181,15 +181,16 @@ color:#2e2f42;
     position: absolute;
     width: 1px;
     height: 1px;
-    padding: 0;
     margin: -1px;
-    overflow: hidden;
-    clip-path: inset(100%);
-    white-space: nowrap;
     border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden; 
 }
 
-.visually-hidden,
+.benefits-title,
 .team-title,
 .portfolio-title{
     font-weight: 700;
@@ -201,7 +202,7 @@ color:#2e2f42;
     text-transform: capitalize;
 }
 
-.visually-hidden,
+.benefits-title,
 .team-title,
 .portfolio-title{
     margin-bottom: 72px;
