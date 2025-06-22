@@ -257,8 +257,10 @@ color:#2e2f42;
 }
 
 /* portfolio section */
+
 .portfolio-image{
     box-sizing: border-box;
+    width: 100%;
 }
 
 .portfolio-list {
@@ -282,6 +284,7 @@ color:#2e2f42;
 }
 .portfolio-menu{
     padding: 32px 16px;
+    border-top: none;
     border: 1px solid #e7e9fc;
 }
 /* footer */
