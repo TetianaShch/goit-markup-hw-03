@@ -177,7 +177,7 @@ color:#2e2f42;
     padding-bottom: 120px;
 }
 
-.visually-hidden {
+.visually-hidden{
     position: absolute;
     width: 1px;
     height: 1px;
@@ -189,7 +189,7 @@ color:#2e2f42;
     clip: rect(0 0 0 0);
     overflow: hidden; }
 
-.benefits-title,
+.visually-hidden,
 .team-title,
 .portfolio-title{
     font-weight: 700;
@@ -201,7 +201,7 @@ color:#2e2f42;
     text-transform: capitalize;
 }
 
-.benefits-title,
+.visually-hidden,
 .team-title,
 .portfolio-title{
     margin-bottom: 72px;
@@ -270,7 +270,7 @@ color:#2e2f42;
     width: 100%;
 }
 
-.portfolio-list {
+.portfolio-list{
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
